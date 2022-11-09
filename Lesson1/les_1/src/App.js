@@ -1,6 +1,11 @@
+import Techonologies from "./Techonologies"
+
 function App() {
   return (
     <div>
+      <div>
+        <Techonologies />
+      </div>
       <div>one div</div>
       <div className="App">
         <ul>
