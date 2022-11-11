@@ -1,3 +1,4 @@
+import MyPosts from './MyPosts/MyPosts';
 import style from './Profile.module.css'
 
 function Profile() {
@@ -9,18 +10,7 @@ function Profile() {
         <div>
           ava + disc
         </div>
-        <div>
-          My posts
-          <div>
-            Posts
-            <div>
-              POST1
-            </div>
-            <div>
-              POST2
-            </div>
-          </div>
-        </div>
+        <MyPosts />
       </div>
     )
 }
