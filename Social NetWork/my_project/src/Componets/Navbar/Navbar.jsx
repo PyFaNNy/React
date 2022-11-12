@@ -1,23 +1,23 @@
-import React, { Component }  from 'react';
-import classes from './Navbar.module.css'
+import { NavLink } from 'react-router-dom';
+import style from './Navbar.module.css'
 
 function Navbar() {
     return (
-        <nav className={classes.nav}>
-            <div className={classes.item}>
-                <a href='/profile'>Profile</a>
+        <nav className={style.nav}>
+            <div className={style.item}>
+                <NavLink to='/profile' className={(navData) => (navData.isActive ? style.active : 'none')} >Profile</NavLink>
             </div>
-            <div className={classes.item}>
-                <a href='/dialogs'>Messanges</a>
+            <div className={style.item}>
+                <NavLink to='/dialogs' className={(navData) => (navData.isActive ? style.active : 'none')}>Messanges</NavLink>
             </div>
-            <div className={classes.item}>
-                <a href='/news'>News</a>
+            <div className={style.item}>
+                <NavLink to='/news' className={(navData) => (navData.isActive ? style.active : 'none')}>News</NavLink>
             </div>
-            <div className={classes.item}>
-                <a href='/music'>Music</a>
+            <div className={style.item}>
+                <NavLink to='/music' className={(navData) => (navData.isActive ? style.active : 'none')}>Music</NavLink>
             </div>
-            <div className={classes.item}>
-                <a href='settings'>Settings</a>
+            <div className={style.item}>
+                <NavLink to='settings' className={(navData) => (navData.isActive ? style.active : 'none')}>Settings</NavLink>
             </div>
         </nav>
     )

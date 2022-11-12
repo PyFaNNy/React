@@ -1,6 +1,5 @@
 import MyPosts from './MyPosts/MyPosts';
 import style from './Profile.module.css'
-import React from 'react'
 
 function Profile() {
     return (
