@@ -1,0 +1,12 @@
+.header {
+    grid-area: h;
+    background-color: burlywood;
+  }
+
+  .header img {
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
