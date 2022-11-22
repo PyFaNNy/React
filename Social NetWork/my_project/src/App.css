@@ -1,10 +1,10 @@
-.app-wraper {
+.app-wrapper {
   margin:0 auto;
   display: grid;
   width: 1500px;
   grid-template-areas: 
   "h h"
-  "n con";
+  "n cont";
 
   grid-template-rows: 120px 1fr;
   grid-template-columns: 2fr 10fr;
@@ -12,6 +12,6 @@
 }
 
 .app-wrapper-content {
-  grid-area: con;
+  grid-area: cont;
   background-color:antiquewhite;
 }
