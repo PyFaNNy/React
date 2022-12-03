@@ -69,4 +69,3 @@ export const updateNewMessageBodyCreator = (body) =>
 
 export default store;
 window.store = store;
-// store - OOP

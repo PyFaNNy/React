@@ -4,6 +4,7 @@ import Dialogs from './Componets/Dialogs/Dialogs';
 import Header from './Componets/Header/Header';
 import Navbar from './Componets/Navbar/Navbar';
 import Profile from './Componets/Profile/Profile';
+import React from 'react';
 
 function App(props) {
   return (
